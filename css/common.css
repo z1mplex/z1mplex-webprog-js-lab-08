@@ -12,3 +12,73 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item {
+  flex: 1 1 calc(33.333% - 10px);
+  max-width: calc(33.333% - 10px);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#boxes {
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#categories {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.item li {
+  padding: 5px 0;
+  color: #555;
+}
+
+.item li:hover {
+  color: #007BFF;
+  cursor: pointer;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
